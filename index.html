@@ -7,6 +7,158 @@
     <!-- Inclusión de Google Fonts para 'Roboto' -->
 </head>
 <body> 
-      
+ <h1>Ejercicio 1: obtenerFechaActual</h1>
+
+    <section>
+        <h2>Fecha Actual en Formato dd/mm/yyyy</h2>
+
+        <div class="form-group">
+            <button id="btnFecha" onclick="mostrarFecha()">Mostrar Fecha Actual</button>
+        </div>
+
+        <p id="resultadoFecha"></p>
+    </section>
+
+    <h1>Ejercicio 2: Calcular Área del Círculo</h1>
+
+    <section>
+        <h2>Calcular área del círculo a partir de su radio</h2>
+
+        <div class="form-group">
+            <label for="radioCirculo">Ingrese el radio:</label>
+            <input type="number" id="radioCirculo" min="0" step="any" placeholder="Radio del círculo">
+            <button id="btnAreaCirculo">Calcular Área</button>
+        </div>
+
+        <p id="resultadoArea"></p>
+    </section>
+
+    <h1>Ejercicio 3: contarVocales</h1>
+    <section>
+        <h2>Función que cuenta el número de vocales en una cadena de texto.</h2>
+        <div class="form-group">
+            <label for="cadenaVocales">Ingrese una cadena:</label>
+            <input type="text" id="cadenaVocales" placeholder="Escriba aquí...">
+            <button id="btnContarVocales">Contar Vocales</button>
+        </div>
+        <p id="resultadoVocales"></p>
+    </section>
+
+    <h1>Ejercicio 4: celsiusAFahrenheit</h1>
+
+    <section>
+        <h2>Función que convierte grados Celsius a Fahrenheit.</h2>
+
+        <div class="form-group">
+            <label for="celsius">Ingrese los celsius:</label>
+            <input type="number" id="celsius" step="any" placeholder="Ingrese los Celsius">
+            <button id="btnCelsiusFahrenheit">Convertir de Celsius a Fahrenheit</button>
+        </div>
+    
+        <p id="resultadoFahrenheit"></p>
+    </section>
+
+    <h1>Ejercicio 5: formatearNumero</h1>
+
+    <section>
+        <h2>Función que agrega separadores de miles.</h2>
+        <div class="form-group">
+            <label for="numeroFormatear">Ingrese un número:</label>
+            <input type="text" id="numeroFormatear" placeholder="Ingrese el número">
+            <button id="btnFormatearNumero">Formatear Número</button>
+        </div>
+        <p id="resultadoNumero"></p>
+    </section>
+    
+        <h1>Ejercicio 6: reyesMagos</h1>
+
+        <section>
+            <h2>Calcular días restantes hasta el próximo 6 de enero.</h2>
+        
+            <div class="form-group">
+                <label for="fechaReyes">Ingrese una fecha (dd/mm/yyyy):</label>
+                <input type="date" id="fechaReyes">
+                <button id="btnReyesMagos">Calcular días</button>
+            </div>
+        
+            <p id="resultadoReyes"></p>
+        </section>
+
+        <h1>Ejercicio 7: calcularAleatorio</h1>
+
+    <section>
+        <h2>genera un número aleatorio entre un mínimo y un máximo</h2>
+
+        <div class="form-group">
+            <label for="minimo">Mínimo:</label>
+            <input type="number" id="minimo" placeholder="Ingrese el mínimo">
+            
+            <label for="maximo">Máximo:</label>
+            <input type="number" id="maximo" placeholder="Ingrese el máximo">
+            
+            <button id="btnAleatorio">Generar Número Aleatorio</button>
+        </div>
+    
+        <p id="resultadoAleatorio"></p>
+    </section>
+
+    <h1>Ejercicio 8: esPalindromo</h1>
+    <section>
+        <h2>Función que determina si una cadena de texto es un palíndromo.</h2>
+        <div class="form-group">
+            <label for="cadenaPalindromo">Cadena de texto:</label>
+            <input type="text" id="cadenaPalindromo" placeholder="Escribe aquí una palabra o frase">
+            <button id="btnVerificarPalindromo">Verificar Palíndromo</button>
+        </div>
+    
+        <p id="resultadoPalindromo"></p>
+    </section>
+
+    <h1>Ejercicio 9: camelCase</h1>
+    <section>
+        <h2>Función que convierte una cadena de texto a lowerCamelCase.</h2>
+        <div class="form-group">
+            <label for="cadenaCamelCase">Cadena de texto:</label>
+            <input type="text" id="cadenaCamelCase" placeholder="Escribe aquí una palabra o frase">
+            <button id="btnCamelCase">Convertir a camello</button>
+        </div>
+    
+        <p id="resultadoCamelCase"></p>
+    </section>
+
+    <h1>Ejercicio 10: numberToWords</h1>
+    <section>
+        <h2>Función que convierte un número entero positivo entre 0 y 999,999 a palabras en español.</h2>
+        <div class="form-group">
+            <label for="cadenaNumberToWords">Números:</label>
+            <input type="text" id="cadenaNumberToWords" placeholder="Escribe aquí números">
+            <button id="btnNumberToWords">Convertir a palabras en español</button>
+        </div>
+        <p id="resultadoNumberToWords"></p>
+    </section>
+
+
+    <h1>Ejercicio Navidad: diasParaNavidad</h1>
+
+    <section>
+        <h2>Calcular días restantes hasta navidad.</h2>
+    
+        <div class="form-group">
+            <label for="fechaNavidad">Ingrese una fecha (dd/mm/yyyy):</label>
+            <input type="date" id="fechaNavidad">
+            <button id="btnNavidad">Calcular días</button>
+        </div>
+    
+        <p id="resultadoNavidad"></p>
+    </section>
+
+
+    <script src="./js/app.js"></script> 
+    <script src="./js/eventos.js"></script> 
+
+
+
+
 </body>
 </html>
+
